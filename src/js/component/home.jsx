@@ -14,10 +14,11 @@ const Home = () => {
 			<div className="container">
 			<Jumbotron />
 			
-			<Footer />
-			</div>
 			
+			</div>
+			<Footer />
 		</div>
+		
 	);
 };
 

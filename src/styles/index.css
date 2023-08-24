@@ -10,3 +10,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+footer {
+    bottom: 0;
+}
+
+.copyright {
+    padding: 17px 0;
+    text-align: center;
+
+    bottom: 0;
+}
+
+
+.container {
+    padding: 5%;
+}
