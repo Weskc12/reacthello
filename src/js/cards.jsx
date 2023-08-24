@@ -9,7 +9,7 @@ export const Cards = (props) => {
     //<div className="cards-container">
     <div class="d-flex align-items-right mt-3">
     <div className="row row-cols-1 row-cols-sm-6 g-4">
-    <div className="co-3"></div>
+    <div className="co-2"></div>
   <div className="col">
     <div className="card h-100 w-100">
       <img src="https://source.unsplash.com/random/200x120?sig=3" className="card-img-top" alt="..."/>
@@ -59,7 +59,7 @@ export const Cards = (props) => {
     </div>
   </div>
 </div>
-<div className="co-3"></div>
+<div className="co-2"></div>
 </div>
   );
 };
