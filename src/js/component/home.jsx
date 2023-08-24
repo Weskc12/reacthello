@@ -1,18 +1,21 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./navbar";
 import { Jumbotron } from "./jumbotron";
+import { Footer } from "./footer";
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div>
 			<Navbar />
+			
+			<div className="container">
 			<Jumbotron />
-			<Card />
+			
 			<Footer />
+			</div>
 			
 		</div>
 	);
