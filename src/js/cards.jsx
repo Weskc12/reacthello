@@ -17,7 +17,7 @@ export const Cards = (props) => {
         <h5 className="card-title">Card title</h5>
         <p className="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
       </div>
-      <div className="card-footer">
+      <div className="card-footer text-center">
       <button className="btn btn-primary" type="submit">Find Out More!</button>
       </div>
     </div>
@@ -29,7 +29,7 @@ export const Cards = (props) => {
         <h5 className="card-title">Card title</h5>
         <p className="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aliquam tincidunt mauris eu risus.</p>
       </div>
-      <div className="card-footer">
+      <div className="card-footer text-center">
       <button className="btn btn-primary" type="submit">Find Out More!</button>
       </div>
     </div>
@@ -41,7 +41,7 @@ export const Cards = (props) => {
         <h5 className="card-title">Card title</h5>
         <p className="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
       </div>
-      <div className="card-footer">
+      <div className="card-footer text-center">
       <button className="btn btn-primary" type="submit">Find Out More!</button>
       </div>
     </div>
@@ -53,7 +53,7 @@ export const Cards = (props) => {
         <h5 className="card-title">Card title</h5>
         <p className="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Morbi in sem quis dui placerat ornare.</p>
       </div>
-      <div className="card-footer">
+      <div className="card-footer text-center">
       <button className="btn btn-primary" type="submit">Find Out More!</button>
       </div>
     </div>
