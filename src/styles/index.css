@@ -21,13 +21,10 @@ body {
 }
 
 .container {
-height:100%;
-background-color: azure;
-display:flex;
-justify-content: center;
-}
-
-.cards-container {
+    height:100%;
+    background-color: azure;
     display:flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+    }
+
+
