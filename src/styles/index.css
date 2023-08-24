@@ -10,3 +10,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*, * ::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    height:100hv;
+}
+
+.container {
+height:100%;
+background-color: azure;
+display:flex;
+justify-content: center;
+}
+
+.cards-container {
+    display:flex;
+    justify-content: space-between;
+}
