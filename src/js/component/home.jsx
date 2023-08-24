@@ -1,9 +1,10 @@
 import React from "react";
 
-//include images into your bundle
+
 import { Navbar } from "./navbar";
 import { Jumbotron } from "./jumbotron";
 import { Footer } from "./footer";
+import { Cards } from "./cards";
 
 //create your first component
 const Home = () => {
@@ -14,7 +15,8 @@ const Home = () => {
 			<div className="container">
 			<Jumbotron />
 			
-			
+			<Cards />
+
 			</div>
 			<Footer />
 		</div>

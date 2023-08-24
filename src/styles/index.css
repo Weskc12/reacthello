@@ -12,16 +12,22 @@
 */
 footer {
     bottom: 0;
+    padding: 17px 0;
 }
 
 .copyright {
-    padding: 17px 0;
+    
     text-align: center;
 
    
 }
 
+.card {
+  
+}
+
 
 .container {
-    padding: 5%;
+
 }
+
