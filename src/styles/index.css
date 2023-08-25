@@ -8,8 +8,25 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
+
+ *, * ::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    height:100hv;
+}
+
+.container {
+    height:100%;
+    background-color: azure;
+    display:block;
+    justify-content: center;
+    }
+
 footer {
     bottom: 0;
     padding: 17px 0;
@@ -18,16 +35,6 @@ footer {
 .copyright {
     
     text-align: center;
-
-   
 }
 
-.card {
-  
-}
-
-
-.container {
-
-}
 
