@@ -27,4 +27,14 @@ body {
     justify-content: center;
     }
 
+footer {
+    bottom: 0;
+    padding: 17px 0;
+}
+
+.copyright {
+    
+    text-align: center;
+}
+
 
