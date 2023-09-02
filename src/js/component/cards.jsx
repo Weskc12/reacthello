@@ -11,46 +11,51 @@ export const Cards = () => {
     /// feel free to add files,code or remove anything that you need for your code to work. 
     //// Be sure to also check the home.jsx and make sure to import react and whatever name you are using for your .jsx file
 
-      <span className="cardcontainer ">
-        <div className="card d-flex" style={{ width: "18rem;" }}>
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
-          </div>
+    <div className="row row-cols-1 row-cols-md-3 g-4">
+    <div className="col">
+      <div className="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" className="card-img-top" alt="Skyscrapers"/>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            This is a wider card with supporting text below as a natural lead-in to
+            additional content. This content is a little bit longer.
+          </p>
         </div>
-
-        <div className="card d-flex" style={{ width: "18rem;" }}>
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
-          </div>
+        <div className="card-footer">
+          <small className="text-muted">Last updated 3 mins ago</small>
         </div>
-
-        <div className="card d-flex" style={{ width: "18rem;" }}>
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
-          </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" className="card-img-top" alt="Los Angeles Skyscrapers"/>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
-
-        <div className="card d-flex" style={{ width: "18rem;" }}>
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
-          </div>
+        <div className="card-footer">
+          <small className="text-muted">Last updated 3 mins ago</small>
         </div>
-
-        
-
-      </span>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card h-100">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" className="card-img-top" alt="Palm Springs Road"/>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            This is a wider card with supporting text below as a natural lead-in to
+            additional content. This card has even longer content than the first to show
+            that equal height action.
+          </p>
+        </div>
+        <div className="card-footer">
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
    
   );
 };
